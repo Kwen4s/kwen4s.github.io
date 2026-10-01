@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" role="img" aria-labelledby="title desc">
+  <title id="title">JVM、JRE、JDK 三者关系</title>
+  <desc id="desc">JDK 包含 JRE，JRE 包含 JVM，同时 JDK 还包含编译器、调试器和开发工具。</desc>
+  <style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#27364a}.label{font-size:25px;font-weight:700}.small{font-size:21px}.eng{font-family:Arial,sans-serif;font-size:24px;font-weight:700}</style>
+  <rect width="1100" height="700" fill="#fff"/>
+  <rect x="55" y="35" width="990" height="620" rx="4" fill="#fffafd" stroke="#d946ef" stroke-width="5"/>
+  <text x="550" y="636" text-anchor="middle" class="eng" fill="#d946ef">JDK</text>
+  <rect x="270" y="70" width="735" height="500" rx="4" fill="#fffdf7" stroke="#e49a22" stroke-width="5"/>
+  <text x="638" y="548" text-anchor="middle" class="eng" fill="#e49a22">JRE</text>
+  <rect x="78" y="105" width="170" height="76" fill="#fff" stroke="#d946ef" stroke-width="4"/>
+  <text x="163" y="153" text-anchor="middle" class="label">编译器</text>
+  <rect x="78" y="218" width="170" height="76" fill="#fff" stroke="#d946ef" stroke-width="4"/>
+  <text x="163" y="266" text-anchor="middle" class="label">调试器</text>
+  <rect x="78" y="331" width="170" height="76" fill="#fff" stroke="#d946ef" stroke-width="4"/>
+  <text x="163" y="379" text-anchor="middle" class="label">开发工具</text>
+  <rect x="330" y="105" width="255" height="112" fill="#fff" stroke="#e49a22" stroke-width="4"/>
+  <text x="457" y="151" text-anchor="middle" class="label">类加载器</text>
+  <text x="457" y="188" text-anchor="middle" class="small">字节码验证器</text>
+  <rect x="620" y="105" width="330" height="112" fill="#fff" stroke="#e49a22" stroke-width="4"/>
+  <text x="653" y="151" class="eng">Swing</text><text x="760" y="151" class="eng">net</text><text x="838" y="151" class="eng">I/O</text><text x="910" y="151" class="eng">...</text>
+  <text x="785" y="190" text-anchor="middle" class="label">Java 类库</text>
+  <rect x="325" y="260" width="650" height="220" fill="#fbfffb" stroke="#6f7c76" stroke-width="4"/>
+  <rect x="365" y="300" width="240" height="64" rx="30" fill="#fff" stroke="#6f7c76" stroke-width="4"/>
+  <text x="485" y="341" text-anchor="middle" class="label">解释器</text>
+  <rect x="695" y="300" width="225" height="64" rx="30" fill="#fff" stroke="#6f7c76" stroke-width="4"/>
+  <text x="807" y="341" text-anchor="middle" class="label">...</text>
+  <rect x="365" y="390" width="240" height="64" fill="#fff" stroke="#6f7c76" stroke-width="4"/>
+  <text x="485" y="431" text-anchor="middle" class="label">垃圾收集器</text>
+  <rect x="695" y="390" width="225" height="64" fill="#fff" stroke="#6f7c76" stroke-width="4"/>
+  <text x="807" y="431" text-anchor="middle" class="label">线程与同步</text>
+  <text x="650" y="470" text-anchor="middle" class="eng" fill="#6f7c76">JVM</text>
+  <rect x="12" y="105" width="48" height="58" rx="6" fill="#2d8dd8"/><text x="36" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#fff">.JAVA</text>
+  <line x1="62" y1="134" x2="78" y2="134" stroke="#315bd6" stroke-width="3"/>
+  <line x1="248" y1="143" x2="330" y2="143" stroke="#315bd6" stroke-width="3"/>
+  <line x1="457" y1="217" x2="457" y2="260" stroke="#315bd6" stroke-width="3"/>
+</svg>
